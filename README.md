@@ -6,8 +6,9 @@ I found myself needing to search through multiple botanical garden holdings afte
 This is by no means an exhaustive search of all botanical gardens, but they are major gardens in the US and Europe and it is a great place to start.
 
 When calling the script, it takes two arguments: `project_folder` and `output_path`
-`garden-search.py '/path/to/dataset/withplants.csv', 'path/to/output/folder/'`
+Call using:
+`garden-search.py /path/to/dataset/withplants.csv, path/to/output/folder/`
 
 A text file with the results for each botanical garden will be created and stored in `output_folder` specified. Be aware that this script does take a few hours, but it is still better than a manual search.
 
-the function to extract url links to each botanical garden site from gardenexplorer.org was adapted from [here](https://www.thepythoncode.com/article/extract-all-website-links-python). This has some useful tips on building web scrapers and is a great read if you're just starting out in web scraping like I was when I wrote this script.
+The function to extract url links to each botanical garden site from gardenexplorer.org was adapted from [here](https://www.thepythoncode.com/article/extract-all-website-links-python). This has some useful tips on building web scrapers and is a great read if you're just starting out in web scraping like I was when I wrote this script.
